@@ -5,7 +5,7 @@ package com.ancient.util.spell.data;
  * Classes implementing Data should contain a private variable which stores the
  * data in a propper way.<br>
  * <br>
- * All classes implementing Data should have a name &ltstoredType&gtData<br>
+ * All classes implementing Data should have a name &lt;storedType&gt;Data<br>
  * Example:<br>
  * <pre>
  * StringData	: stores String

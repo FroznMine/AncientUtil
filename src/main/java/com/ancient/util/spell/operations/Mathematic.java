@@ -181,11 +181,11 @@ public class Mathematic {
 	/** Returns the precedence of the given operator.<br>
 	 * Precedence from high to low:
 	 * <ul>
-	 *   <li>"^" -> 2</li>
-	 *   <li>"*" or "/" -> 1</li>
-	 *   <li>"+" or "-" -> 0</li>
+	 *   <li>"^" -&gt; 2</li>
+	 *   <li>"*" or "/" -&gt; 1</li>
+	 *   <li>"+" or "-" -&gt; 0</li>
 	 * </ul>
-	 * The value behind "->" is what is returned by this method.<br>
+	 * The value behind "-&gt;" is what is returned by this method.<br>
 	 * If it is not in the list it returns -1.
 	 * 
 	 * @param expression the String to check
