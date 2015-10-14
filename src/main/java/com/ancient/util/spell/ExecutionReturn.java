@@ -27,7 +27,7 @@ public class ExecutionReturn {
 		this.DATA = new LinkedList<Data>();
 	}
 	
-	/** Add an array of data to the object.</br>
+	/** Add an array of data to the object.<br>
 	 * The items are added in the order they are passed at the end of the list.
 	 * 
 	 * @param data The data that should be added

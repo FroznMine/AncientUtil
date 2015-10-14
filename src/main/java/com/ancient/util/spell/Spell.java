@@ -19,7 +19,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import com.ancient.util.spell.item.SpellItem;
 import com.ancient.util.chat.ChatParser;
 
-/** Class holding one spell, that may be executed</br>
+/** Class holding one spell, that may be executed<br>
  * Includes spell type, name etc.
  * 
  * @author FroznMine
@@ -32,7 +32,7 @@ public class Spell {
 	 */
 	private HashMap<Integer, SpellItem> items;
 	
-	/** A constructor for a spell.</br>
+	/** A constructor for a spell.<br>
 	 * Loaded from the passed file.
 	 * 
 	 * @param file The file containing the spell

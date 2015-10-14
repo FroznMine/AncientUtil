@@ -52,12 +52,12 @@ public class SpellParser {
 		return true;
 	}
 
-	/** Checks if the given char is a seperator</br>
-	 * A seperator is every ascii char, which is not listed here:</br>
-	 * - A-Z</br>
-	 * - a-z</br>
-	 * - 0-9</br>
-	 * - '_'</br>
+	/** Checks if the given char is a seperator<br>
+	 * A seperator is every ascii char, which is not listed here:<br>
+	 * - A-Z<br>
+	 * - a-z<br>
+	 * - 0-9<br>
+	 * - '_'<br>
 	 * @param c The char that has to be checked
 	 * @return true if the char is a seperator, false otherwise
 	 */

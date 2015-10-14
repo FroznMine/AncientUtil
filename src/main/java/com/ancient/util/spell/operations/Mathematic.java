@@ -160,17 +160,17 @@ public class Mathematic {
 
 	/** Checks if the given expression equals ")"
 	 * 
-	 * @param expressison the String to check
+	 * @param expression the String to check
 	 * @return true if expression is ")", false otherwise
 	 */
-	public static boolean isRightParenthesis(String expresison) {
-		if (expresison.equals(")")) return true;
+	public static boolean isRightParenthesis(String expression) {
+		if (expression.equals(")")) return true;
 		return false;
 	}
 
 	/** Checks if the given expression equals "("
 	 * 
-	 * @param expressison the String to check
+	 * @param expression the String to check
 	 * @return true if expression is "(", false otherwise
 	 */
 	public static boolean isLeftParenthesis(String expression) {
@@ -188,7 +188,7 @@ public class Mathematic {
 	 * The value behind "->" is what is returned by this method.<br>
 	 * If it is not in the list it returns -1.
 	 * 
-	 * @param expressison the String to check
+	 * @param expression the String to check
 	 * @return 2 for "^", 1 for "*" or "/", 0 for "+" or "-" and -1 for everything else
 	 */
 	public static int getPrecedence(String expression) {
@@ -201,7 +201,7 @@ public class Mathematic {
 	/** Checks if the given operator is left or right associative.<br>
 	 * Since "^" is the only right associative operator it checks if the given String equals it.
 	 * 
-	 * @param expressison the String to check
+	 * @param expression the String to check
 	 * @return true if expression is left associative, false when right associative
 	 */
 	public static boolean isLeftAssociative(String expression) {
@@ -219,7 +219,7 @@ public class Mathematic {
 	 *   <li>-</li>
 	 * </ul>
 	 * 
-	 * @param expressison the String to check
+	 * @param token the String to check
 	 * @return true if the expression is an operator, false otherwise
 	 */
 	public static boolean isOperator(String token) {

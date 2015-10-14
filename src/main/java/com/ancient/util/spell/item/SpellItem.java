@@ -3,7 +3,7 @@ package com.ancient.util.spell.item;
 import com.ancient.util.spell.data.Data;
 import com.ancient.util.spell.ExecutionReturn;
 
-/** The SpellItem interface is a general inferface for all things that should be usable in <code>Spells</code><\br>
+/** The SpellItem interface is a general inferface for all things that should be usable in <code>Spells</code><br>
  * excecute(Data... data) is the only method that has to be implemented in every SpellItem, so it can be called. Things like values of wrong format have to be caught by the specific items
  * 
  * @author FroznMine
